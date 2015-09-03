@@ -1,0 +1,81 @@
+div.score{
+
+}
+span.score{
+
+}
+span.score.cpu{
+
+}
+span.score.jug{
+
+}
+.screen-alert{
+
+}
+ul.button-jugador{
+	list-style: none;
+	list-style-type: none;
+	display: block;
+}
+ul.button-jugador li{
+	float: left;
+	margin-right: 5px;
+}
+.button{
+	display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url('../images/icons.png') !important;
+    background-size: 660%;
+    background-repeat: no-repeat;
+}
+.button:hover{
+	opacity: 0.5;
+}
+.button.piedra{
+	background-position: -56px 0px;
+}
+.button.papel{
+	background-position: -112px 0px;
+}
+.button.tijera{
+	background-position: -166px 0px;
+}
+.button.lagarto{
+    background-position: -224px 0px;
+}
+.button.spock{
+	background-position: 0px 0px;
+}
+.button.caruso{
+    background-position: -278px 0px;
+}
+
+.image{
+	display: block;
+    width: 268px;
+    height: 268px;
+    overflow: hidden;
+    background-image: url('../images/icons.png') !important;
+    background-repeat: no-repeat;
+}
+.image.spock{
+	background-position: 0px 0px;
+}
+.image.piedra{
+	background-position: -280px 0px;
+}
+.image.papel{
+	background-position: -560px 0px;
+}
+.image.tijera{
+	background-position: -840px 0px;
+}
+.image.lagarto{
+    background-position: -1120px 0px;
+}
+.image.caruso{
+    background-position: -1406px 0px;
+}
